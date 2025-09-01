@@ -1,4 +1,4 @@
-# NEXUS Profile Hub
+# quantum-profile-hub
 
 En futuristisk webbapplikation som visar användarprofilkort med cyberpunk-estetik. Applikationen hämtar användardata från RandomUser.me API och presenterar dem i interaktiva, expanderbara kort med glassmorfism-effekter och neonanimationer.
 
