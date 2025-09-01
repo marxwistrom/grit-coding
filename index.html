@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Profile Hub - Professionell Edition</title>
+    <meta name="description" content="Professionell quantum-inspirerad profilkort-applikation med modern design och responsiv layout">
+    <meta name="keywords" content="profiler, quantum, modern design, JavaScript, CSS, responsiv">
+    <meta name="author" content="JavaScript 1 Examination Project">
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animerade bakgrundselement -->
+    <div class="background-grid"></div>
+    <div class="background-particles"></div>
+    
+    <!-- Huvudrubrik -->
+    <header class="header">
+        <h1 class="title">
+            <span class="title-main">Quantum</span>
+            <span class="title-sub">Profile Hub</span>
+        </h1>
+        <button id="refresh-profiles-btn" class="refresh-btn" title="Ladda nya profiler">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+            </svg>
+            <span>Nya Profiler</span>
+        </button>
+        <div class="scan-line"></div>
+    </header>
+    
+    <!-- Huvudinnehållsområde -->
+    <main class="main-content">
+        <!-- Container för profilkort -->
+        <div id="user-cards-container" class="user-cards-container">
+            <!-- Kort kommer att infogas dynamiskt här -->
+        </div>
+    </main>
+    
+    <!-- Sidfot med projektinformation -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Quantum Profile Hub | Professionell Edition | JavaScript 1 Examination</p>
+            <div class="tech-stack">
+                <span>Modern JavaScript</span>
+                <span>CSS Grid & Flexbox</span>
+                <span>Professionell Design</span>
+                <span>Quantum Tema</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Professionell JavaScript-implementation -->
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
