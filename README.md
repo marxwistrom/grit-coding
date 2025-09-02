@@ -21,7 +21,7 @@ my-frontend-project-1/
 │   │   └── styles.css          # Futuristiska stilar med CSS Grid och animationer
 │   └── js/
 │       ├── api.js              # RandomUser.me API integration
-│       ├── card.js             # Dynamisk kortskapning med          expanderbar info
+│       ├── card.js             # Dynamisk kortskapning med expanderbar info
 │       ├── main.js             # Huvudlogik med state management
 │       └── utils.js            # Hjälpklasser (DateFormatter, Logger)
 ├── index.html                  # Huvudsida med futuristisk layout
